@@ -32,24 +32,20 @@ Working with variables in Python is simple:
 
 ## Programs in This Repository
 
-### 1. User Data Input
-
-A program that prompts the user to enter personal information such as:
-- Name
-- Address
-- Province
-- Postal code
-
-The program then displays the input back to the user in a structured format.
+### 1. Personal Introduction Program
+This simple interactive program collects basic personal information from the user through a series of text-based prompts. Specifically, it asks for:
+- The user's name
+- Their hometown or place of origin
+- The name of their previous school
+  
+After collecting the data, the program displays short, conversational responses using the provided input to simulate a friendly introduction. This exercise helps beginners understand how to work with user input, string concatenation, and output formatting in Python.
 
 ### 2. Room Area Calculator
-
-A program that:
-- Asks the user to input the **length** and **width** of a room
-- Asks for the **unit** of measurement (meters or inches)
-- Calculates and displays the **area** of the room
-
-This example introduces basic arithmetic operations and conditional logic in Python.
+This program calculates the area of a room based on user-provided dimensions. It prompts the user to enter:
+- The length and width of the room (as floating-point numbers)
+- The unit of measurement (either meters or inches)
+  
+It then calculates the area and displays the result in the appropriate unit. If the user chooses "inci" (inches), the program converts the result using a basic factor from meters to inches (1 meter ≈ 39.3701 inches).
 
 ## How to Run
 
